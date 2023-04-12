@@ -12,7 +12,7 @@ spec:
   image_pull_policy: IfNotPresent
   projects_storage_size: 8Gi
   task_privileged: false
-  projects_storage_access_mode: ReadWriteOnce
+  projects_storage_access_mode: ReadWriteMany
   projects_persistence: true
   replicas: 1
   admin_user: admin
